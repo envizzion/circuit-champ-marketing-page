@@ -1,6 +1,6 @@
 # Circuit Champ marketing site
 
-Static GitHub Pages site for **Circuit Champ 2** (Envizzion): landing page, privacy policy, and support.
+Static GitHub Pages site for **Circuit Champ** (Envizzion): landing page, privacy policy, and support.
 
 ## Pages
 
