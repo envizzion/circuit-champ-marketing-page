@@ -32,4 +32,17 @@ Links are relative so the site works under a project Pages base path.
 
 ## Screenshots
 
-Phone-style captures from the web app (`localhost:3000`) live in `assets/screenshots/` (also a starting set for Play listing assets). Current captures are ~1153×1227 from the browser viewport — for Play Console, re-capture at **1080×1920** from a production build or emulator when possible.
+Mobile captures live in `assets/screenshots/`:
+
+| File | Screen |
+|------|--------|
+| `01-sandbox-live-simulation.png` | Sandbox with powered bulb + current flow |
+| `02-training-workshop.png` | Training component workshop |
+| `03-ranked-levels.png` | Ranked levels list |
+| `04-multimeter-live-readings.png` | Voltmeter + ammeter readings |
+| `05-component-library.png` | Component palette overview |
+| `06-challenge-ohms-law.png` | Challenge with Ohm’s Law panel |
+| `07-my-circuits-cloud-saves.png` | My Circuits local/cloud saves |
+| `08-profile-progress.png` | Profile stars, streaks, achievements |
+
+For Play Console, prefer **1080×1920** exports when re-capturing.

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Circuit Champ 2 — Build circuits. Learn by experimenting.</title>
   <meta name="description"
-    content="Circuit Champ 2 is a hands-on electronics learning app. Build circuits, explore training levels, and experiment in the sandbox.">
+    content="Circuit Champ 2 is a hands-on electronics learning app for Android, with iOS and web versions coming soon. Build circuits, train with guided levels, and experiment in the sandbox.">
   <meta name="theme-color" content="#4361ee">
   <link rel="icon" href="assets/icon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,22 +40,61 @@
           <p class="eyebrow anim">By Envizzion</p>
           <h1 class="anim anim-d1">Circuit Champ 2</h1>
           <p class="hero__lede anim anim-d2">Build circuits, explore electronics, and learn by experimenting.</p>
+          <ul class="platforms anim anim-d2" aria-label="Supported platforms">
+            <li class="platform platform--live">
+              <span class="platform__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85a.637.637 0 0 0-.83.22l-1.88 3.24a11.43 11.43 0 0 0-8.94 0L5.65 5.67a.643.643 0 0 0-.87-.2c-.28.18-.37.54-.2.83L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/>
+                </svg>
+              </span>
+              <span class="platform__meta">
+                <span class="platform__name">Android</span>
+                <span class="platform__status">Live</span>
+              </span>
+            </li>
+            <li class="platform">
+              <span class="platform__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                </svg>
+              </span>
+              <span class="platform__meta">
+                <span class="platform__name">iOS</span>
+                <span class="platform__status">Coming soon</span>
+              </span>
+            </li>
+            <li class="platform">
+              <span class="platform__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="9"/>
+                  <path d="M3 12h18"/>
+                  <path d="M12 3a14 14 0 0 1 0 18"/>
+                  <path d="M12 3a14 14 0 0 0 0 18"/>
+                </svg>
+              </span>
+              <span class="platform__meta">
+                <span class="platform__name">Web</span>
+                <span class="platform__status">Coming soon</span>
+              </span>
+            </li>
+          </ul>
           <div class="cta-row anim anim-d3">
             <a class="btn btn--primary" href="support/">Get support</a>
             <a class="btn btn--ghost" href="privacy/">Privacy policy</a>
           </div>
           <ul class="features anim anim-d4" style="margin-top: 1.75rem;">
-            <li>Drag-and-drop circuit building</li>
-            <li>Interactive wiring and live simulation</li>
-            <li>Guided electronics learning levels</li>
-            <li>Sandbox experiments for open-ended practice</li>
-            <li>LEDs, bulbs, batteries, resistors, switches, and measurement tools</li>
-            <li>Circuit progress and optional cloud saves</li>
+            <li>Drag-and-drop circuit building with live simulation and current-flow animation</li>
+            <li>Guided training by component — multimeters, batteries, resistors, switches, and LEDs</li>
+            <li>Ranked challenges: Wire It, Remake, and Fix It</li>
+            <li>Sandbox Build mode for open-ended experiments</li>
+            <li>Multimeter tools and an on-screen Ohm’s Law calculator</li>
+            <li>Local and cloud circuit saves, progress tracking, and achievements</li>
           </ul>
         </div>
         <aside class="hero__panel anim anim-d2" aria-label="Featured screenshot">
-          <img src="assets/screenshots/01-sandbox-led.png"
-            alt="Sandbox with a powered LED circuit on the Circuit Champ workbench" width="1080" height="1920">
+          <img src="assets/screenshots/01-sandbox-live-simulation.png"
+            alt="Sandbox simulation with a glowing bulb, battery, resistor, and animated current flow"
+            width="415" height="918">
           <span class="hero__badge">Build it. Wire it. See it work.</span>
         </aside>
       </div>
@@ -65,39 +104,55 @@
       <div class="wrap">
         <div class="section__head">
           <h2>Inside the app</h2>
-          <p>Guided levels, live simulation, and open-ended sandbox experiments — the same screens used for the Play
-            Store listing.</p>
+          <p>Training, ranked levels, live measurement, and cloud saves — captured from the mobile build.</p>
         </div>
         <div class="shot-grid">
           <figure class="shot anim anim-d1">
-            <img src="assets/screenshots/01-sandbox-led.png" alt="Sandbox with a powered LED circuit" width="1080"
-              height="1920">
-            <figcaption>Sandbox — powered LED</figcaption>
+            <img src="assets/screenshots/01-sandbox-live-simulation.png"
+              alt="Sandbox with a powered bulb circuit and moving current dots on the wires" width="415" height="918">
+            <figcaption>Live simulation — glowing bulb and current flow</figcaption>
           </figure>
           <figure class="shot anim anim-d2">
-            <img src="assets/screenshots/02-training-levels.png" alt="Training and component level list" width="1080"
-              height="1920">
-            <figcaption>Training levels</figcaption>
+            <img src="assets/screenshots/02-training-workshop.png"
+              alt="Training workshop listing Multimeter, Batteries, Resistors, Switches, SPDT, and LEDs"
+              width="416" height="919">
+            <figcaption>Training workshop — learn one component at a time</figcaption>
           </figure>
           <figure class="shot anim anim-d3">
-            <img src="assets/screenshots/03-challenge.png" alt="Active challenge with objective and circuit"
-              width="1080" height="1920">
-            <figcaption>Circuit challenge</figcaption>
+            <img src="assets/screenshots/03-ranked-levels.png"
+              alt="Ranked levels list with Wire It, Remake, and Fix It challenges plus star times"
+              width="416" height="918">
+            <figcaption>Ranked levels — Wire It, Remake, and Fix It</figcaption>
           </figure>
           <figure class="shot anim anim-d4">
-            <img src="assets/screenshots/04-multimeter.png" alt="Multimeter measuring a circuit" width="1080"
-              height="1920">
-            <figcaption>Multimeter</figcaption>
+            <img src="assets/screenshots/04-multimeter-live-readings.png"
+              alt="Circuit with voltmeter reading 6.26 V and ammeter reading 284 mA while the bulb glows"
+              width="413" height="918">
+            <figcaption>Multimeter — live voltage and current readings</figcaption>
           </figure>
           <figure class="shot anim anim-d5">
-            <img src="assets/screenshots/05-series-parallel.png" alt="Series or parallel circuit in the sandbox"
-              width="1080" height="1920">
-            <figcaption>Series &amp; parallel</figcaption>
+            <img src="assets/screenshots/05-component-library.png"
+              alt="Sandbox palette showing batteries, resistors, switches, bulbs, LEDs, and a multimeter"
+              width="412" height="917">
+            <figcaption>Component library — power, passives, controls, outputs, tools</figcaption>
           </figure>
           <figure class="shot anim anim-d6">
-            <img src="assets/screenshots/06-completed-level.png" alt="Completed level or progression screen"
-              width="1080" height="1920">
-            <figcaption>Progress &amp; polish</figcaption>
+            <img src="assets/screenshots/06-challenge-ohms-law.png"
+              alt="Level 4 Build It Yourself challenge with Multimeter dock and Ohm’s Law calculator"
+              width="413" height="921">
+            <figcaption>Challenge play — Multimeter dock and Ohm’s Law</figcaption>
+          </figure>
+          <figure class="shot anim anim-d7">
+            <img src="assets/screenshots/07-my-circuits-cloud-saves.png"
+              alt="My Circuits sheet showing local and cloud save slots for named sandbox circuits"
+              width="412" height="918">
+            <figcaption>My Circuits — local and cloud saves</figcaption>
+          </figure>
+          <figure class="shot anim anim-d8">
+            <img src="assets/screenshots/08-profile-progress.png"
+              alt="Profile screen with stars, levels completed, streak, complexity progress, and achievements"
+              width="413" height="923">
+            <figcaption>Profile — stars, streaks, and achievements</figcaption>
           </figure>
         </div>
       </div>
@@ -112,7 +167,7 @@
         ·
         <a href="support/">Support</a>
         ·
-        <a href="mailto:envizzioninc@gmail.com">envizzioninc@gmail.com</a>
+        <a href="mailto:envizzion.dev@gmail.com">envizzion.dev@gmail.com</a>
       </p>
     </div>
   </footer>
